@@ -26,8 +26,8 @@ Code Challenge to Voxy
 
 - Title: Login Page – Try to login without a registered email and password.
 - Description: A non-registered user should not be able to successfully login.
-- Precondition: the user must have a valid email address.
-- Assumption: a supported browser is being used.
+- Precondition: The user must have a valid email address.
+- Assumption: A supported browser is being used.
 
 
 
@@ -46,8 +46,8 @@ Code Challenge to Voxy
 
 - Title: Forgot password – Try to reset a password without a registered email.
 - Description: A non-registered user should not be able to reset a password.
-- Precondition: the user must have a valid email address.
-- Assumption: a supported browser is being used.
+- Precondition: The user must have a valid email address.
+- Assumption: A supported browser is being used.
 
 
 
@@ -56,9 +56,30 @@ Code Challenge to Voxy
 - Navigate to https://web-stage.voxy.com/go/
 - Click the 'Returning login' button.
 - Click the 'Forgot your password?' link.
-- Fill the field 'Email' (id_user_id) with a valid email address (non-registered)
+- Fill the field 'Email' with a valid email address (non-registered)
 - Click ‘Reset Password’
 - Expected Result: The field 'Email' must display an error message: 'PLEASE PROVIDE A VALID USERNAME OR EMAIL.'
+
+
+-------------------
+### Test 4
+
+- Title: Terra user – Try to login without a valid Terra account.
+- Description: A non-registered user in Terra platform should not be able to login.
+- Precondition: None.
+- Assumption: A supported browser is being used.
+
+
+
+##### Test Steps:
+
+- Navigate to https://web-stage.voxy.com/go/
+- Click the 'Returning login' button.
+- Click the 'Terra user?' link.
+- Fill the field 'Username' with a random username
+- Fill the field 'Password' with a random password
+- Click ‘Log in’
+- Expected Result: The login form must display an error message above the form fields: 'Authentication failed:'
 
 
 -------------------
