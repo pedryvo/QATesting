@@ -91,7 +91,7 @@ This test was built in a Ubuntu 18.04 Linux machine.
 - Download latest Chromedriver for your Chrome browser version http://chromedriver.chromium.org/downloads 
 - Unzip content and move the chromedriver exec to /usr/bin
 - Run 'chromedriver' in a terminal
-
 - You must have a ruby interpreter installed, in this case was used Ruby 2.6 (installed via RVM)
+- You must have the gem 'selenium-webdriver' installed.
 - Run "ruby test_name.rb" in a terminal
 - Wait for the output
