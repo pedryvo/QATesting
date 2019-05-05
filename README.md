@@ -18,7 +18,27 @@ Code Challenge to Voxy
 - Fill the field 'First Name' with a valid name
 - Fill the field 'Email' with a valid email
 - Click ‘Enroll’
-- Expected Result: The fields 'access_code' and 'password' displaying an error message: 'This field is required.'
+- Expected Result: The fields 'access_code' and 'password' must display an error message: 'THIS FIELD IS REQUIRED.'
+
+
+-------------------
+### Test 2
+
+- Title: Login Page – Try to login without a valid email and password (not registered).
+- Description: A non-registered user should not be able to successfully login.
+- Precondition: the user must have a valid email.
+- Assumption: a supported browser is being used.
+
+
+
+##### Test Steps:
+
+- Navigate to https://web-stage.voxy.com/go/
+- Click the 'Returning login' button.
+- Fill the field 'Email' with a valid email
+- Fill the field 'Password' with a random password
+- Click ‘Login’
+- Expected Result: The field 'username' must display an error message: 'PLEASE ENTER A CORRECT USERNAME AND PASSWORD. NOTE THAT BOTH FIELDS MAY BE CASE-SENSITIVE.'
 
 
 -------------------
