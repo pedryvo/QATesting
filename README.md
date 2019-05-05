@@ -5,7 +5,7 @@ Code Challenge to Voxy
 ### Test 1
 
 - Title: Enroll Page – Try to enroll without an access code and password.
-- Description: A registered user should not be able to successfully enroll without an access code and password.
+- Description: A non-registered user should not be able to successfully enroll without an access code and password.
 - Precondition: the user must have a valid name and email address.
 - Assumption: a supported browser is being used.
 
@@ -17,8 +17,9 @@ Code Challenge to Voxy
 - Click the 'I'm new, Enroll' button.
 - Fill the field 'First Name' with a valid name
 - Fill the field 'Email' with a valid email address
+- Fill the field 'Password' with a random password
 - Click ‘Enroll’
-- Expected Result: The fields 'access_code' and 'password' must display an error message: 'THIS FIELD IS REQUIRED.'
+- Expected Result: The field 'access_code' must display an error message: 'THIS FIELD IS REQUIRED.'
 
 
 -------------------
