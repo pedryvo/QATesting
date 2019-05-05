@@ -1,0 +1,28 @@
+This challenge should take no more than 3 hours.
+
+The first and primary task is to write a set of test cases for the Returning Login flow for Voxy’s platform located at: https://web-stage.voxy.com/go/. We realize there's potentially an infinite number of edge case scenarios, and that you cannot complete the full login flow without a valid account, so use your judgment in picking the most important test cases given the time constraints. The test case should be clearly presented such that a non-technical user could understand them.
+
+The second task is to choose a one or more test cases and write automated test(s) for those cases. Automated test(s) should NOT include load tests or cause damage to the Voxy staging environment.
+
+You should provide a very clear README file with instructions for running the tests and background on why this test was chosen. After you are done with the above tasks, follow the instructions in Details for Submission below.
+
+Notes:
+
+The documentation style of the tests cases is your choice
+Automated tests can be written in any language/framework.
+Bonus:
+
+Surprise us...
+Usage of code quality tools such as linter.
+Tests run against mobile browsers
+What is Voxy looking for when the challenge is reviewed:
+
+Attention to detail
+Quality focused
+Technical and non technical communication:
+Could an engineer use the test cases to create  automated tests?
+Could a non technical person use the test case to manually test a feature?
+Can a Voxy engineer run the automated test and understand the output?
+Details for submission:
+
+Once you finish the coding challenge solution, please send an email to hiring-eng@voxy.com with your code challenge solution. Feel free to send us the code via mail using an archive or just upload it to a repository.
